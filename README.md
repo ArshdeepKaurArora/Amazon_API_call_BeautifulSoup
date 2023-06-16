@@ -22,6 +22,7 @@ Perform the following steps after your download and open this project files in y
 
 + Use the command `pip instal -r requirements.txt` on the terminal to install all the required packages.
 + Use the latest version of python (I have used python 3.11.1).
++ Google your `User-Agent` and `Accept-language` to asign the corresponding variables a correct value in amazon.py file.
 + Change the url of amazon product unless you are also interested in buying electric pressure cooker 😅.
 + Get your app password from your gmail account and use it as a password to drop and email.
 + Finally, run main.py
