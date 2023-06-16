@@ -1,6 +1,6 @@
 # Amazon_API_call_BeautifulSoup
 
-This is an automation project in which I have a call to Amazon webpage and collected the data(price of product) using BeautifulSoup.
+This is an automation project to collect the data(price of product) from Amazon website using BeautifulSoup.
 
 ## What the project does?
 
