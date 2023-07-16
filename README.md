@@ -1,30 +1,30 @@
 # Amazon_API_call_BeautifulSoup
 
-This is an automation project to collect the data(price of product) from Amazon website using BeautifulSoup.
+This is an automation project to collect the data(price of product) from the Amazon website using BeautifulSoup.
 
-## What the project does?
+## What does the project do?
 
-Using the package `BeautifulSoup` and `requests` it collects data from amazon product from amazon website(I have looked for electric pressure cooker).
+`BeautifulSoup` and `requests` package helps to collect data on Amazon products from the Amazon website(I have looked for an electric pressure cooker).
 
-If the price of amazon product is lower than my limit of expenditure on the same, then using `smptlib` package an email is dropped on my email account with the price information and link of the amazon page with the product.
+If the price of an Amazon product is lower than my limit of expenditure on the same, then using `smptlib` package an email is dropped on my email account with the price information and link to the Amazon page with the product.
 
 ## How this project is useful?
 
-Following facts makes it useful -
+The following facts make it useful -
 
-+ Due to its simple sorted program, it is easy to understand for beginner programmer.
++ Due to its simple sorted program, it is easy to understand for beginner programmers.
 + `BeautifulSoup` package in [amazon.py file](https://github.com/ArshdeepKaurArora/Amazon_API_call_BeautifulSoup/blob/main/amazon.py) for data scraping decrease time complexity.
-+ `smptlib` package in [drop_email.py file](https://github.com/ArshdeepKaurArora/Amazon_API_call_BeautifulSoup/blob/main/drop_mail.py) makes a free of cost process to drop an email with the information regarding the product.
++ `smptlib` package in [drop_email.py file](https://github.com/ArshdeepKaurArora/Amazon_API_call_BeautifulSoup/blob/main/drop_mail.py) makes a free-of-cost process to drop an email with the information regarding the product.
 
 ## How anyone can use the code of this project?
 
-Perform the following steps after your download and open this project files in your editor.
+Perform the following steps after downloading and opening this project in your editor.
 
-+ Use the command `pip instal -r requirements.txt` on the terminal to install all the required packages.
-+ Use the latest version of python (I have used python 3.11.1).
-+ Google your `User-Agent` and `Accept-language` to asign the corresponding variables a correct value in amazon.py file.
-+ Change the url of amazon product unless you are also interested in buying electric pressure cooker 😅.
-+ Get your app password from your gmail account and use it as a password to drop and email.
++ Use the command `pip install -r requirements.txt` on the terminal to install all the required packages.
++ Use the latest version of Python (I have used Python 3.11.1).
++ Google your `User-Agent` and `Accept-language` to assign the corresponding variables a correct value in the amazon.py file.
++ Change the URL of Amazon products unless you are also interested in buying an electric pressure cooker 😅.
++ Get your app password from your Gmail account and use it as a password to drop an email.
 + Finally, run main.py
 
 There you go. You have got your own automated Amazon data scraping program.
